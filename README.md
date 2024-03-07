@@ -9,7 +9,7 @@ JavaObjectAnalyzer is a powerful tool designed to simplify the analysis of Java 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Object-Oriented-Assignment.git
+git clone https://github.com/efros5566/Object-Oriented-Assignment.git
 ```
 
 ### Navigate to the Project Directory
