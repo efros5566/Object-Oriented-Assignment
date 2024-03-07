@@ -5,27 +5,18 @@
 package animal;
 
 import interfaces.Land;
-import lombok.Getter;
-import lombok.Setter;
 
-/**
- * Concrete class representing a Dog.
- */
-@Getter
-@Setter
 public class Dog extends Animal implements Land {
 
     /**
      * Constructs a Dog with the specified mood.
-     *
-     * @param mood The initial mood of the dog.
+     * param mood The initial mood of the dog.
      */
     public Dog(int mood) {
         super(true, true, mood);
     }
 
     /**
-     * {@inheritDoc}
      * Prints a typical greeting behavior of dogs - wagging their tails.
      */
     @Override
@@ -34,19 +25,17 @@ public class Dog extends Animal implements Land {
     }
 
     /**
-     * {@inheritDoc}
      * Overrides the method to provide dog-specific greetings based on mood.
-     *
-     * @param mood The mood in which the dog should say hello.
+     * param mood The mood in which the dog should say hello.
      */
     @Override
     public void sayHello(int mood) {
         this.setMood(mood);
-        if (mood > 2 || mood < 0) {
+        if (mood > 1 || mood < 0) {
             this.sayHello();
             return;
         }
-        if (mood == Animal.MOOD_HAPPY) {
+        if (mood == MOODS.MOOD_HAPPY.ordinal()) {
             System.out.println("Happy voice: bark loudly.");
         } else {
             System.out.println("Scared voice: whooping.");
@@ -54,10 +43,8 @@ public class Dog extends Animal implements Land {
     }
 
     /**
-     * {@inheritDoc}
      * Gets the number of legs of the dog (always 4).
-     *
-     * @return The number of legs (4 for dogs).
+     * return The number of legs (4 for dogs).
      */
     @Override
     public int getNumberOfLegs() {
