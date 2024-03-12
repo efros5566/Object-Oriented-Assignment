@@ -115,3 +115,7 @@ public class Main {
 }
 ```
 In this example, the program demonstrates the usage of specific animal instances, showcasing the unique features implemented by each class.
+
+![Alt text](![דיאגרמה](https://github.com/efros5566/Object-Oriented-Assignment/assets/148768594/cb06bc3c-226d-47c0-9d8f-4d3126525456)
+)
+
