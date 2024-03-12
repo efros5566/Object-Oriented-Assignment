@@ -103,6 +103,8 @@ In this example, the Dog class, which extends Animal, implements the Land and Wa
 
 
 ### Example Usage
+In this example, the program demonstrates the usage of specific animal instances, showcasing the unique features implemented by each class.
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -114,7 +116,8 @@ public class Main {
     }
 }
 ```
-In this example, the program demonstrates the usage of specific animal instances, showcasing the unique features implemented by each class.
+
+This is diagram example:
 ![Alt text](דיאגרמה.jpg)
 
 
