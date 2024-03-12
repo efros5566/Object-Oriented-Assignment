@@ -117,7 +117,9 @@ public class Main {
 }
 ```
 
-This is diagram example:
+This is diagram example-
+
+
 ![Alt text](דיאגרמה.jpg)
 
 
