@@ -115,31 +115,3 @@ public class Main {
 }
 ```
 In this example, the program demonstrates the usage of specific animal instances, showcasing the unique features implemented by each class.
-
-
-``` plantuml
-@startuml
-
-abstract class Animal {
-  # species: String
-  + makeSound(): void
-}
-
-class Dog {
-  + bark(): void
-}
-
-class Cat {
-  + meow(): void
-}
-
-class Frog {
-  + croak(): void
-}
-
-Animal <|-- Dog
-Animal <|-- Cat
-Animal <|-- Frog
-
-@enduml
-
